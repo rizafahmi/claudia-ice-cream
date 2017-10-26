@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "aws-sdk": "^2.140.0",
-    "claudia-api-builder": "^2.5.1"
+    "claudia-api-builder": "^2.5.1",
+    "uuid": "^3.1.0"
   }
 }

@@ -2,6 +2,7 @@ const ApiBuilder = require('claudia-api-builder')
 const AWS = require('aws-sdk')
 const api = new ApiBuilder()
 const dynamoDb = new AWS.DynamoDB.DocumentClient()
+const uuid = require('uuid/v4')
 
 const TABLENAME = 'icecreams'
 
@@ -11,7 +12,7 @@ api.post(
     const params = {
       TableName: TABLENAME,
       Item: {
-        icecreamid: request.body.icecreamId,
+        icecreamid: uuid(),
         name: request.body.name
       }
     }
