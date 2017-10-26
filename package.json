@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.140.0",
+    "claudia-api-builder": "^2.5.1"
+  }
+}
