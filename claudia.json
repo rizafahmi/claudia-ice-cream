@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "claudia-ice-cream-executor",
+    "name": "claudia-ice-cream",
+    "region": "ap-southeast-1"
+  },
+  "api": {
+    "id": "y667r05jii",
+    "module": "index"
+  }
+}
